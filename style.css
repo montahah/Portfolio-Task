@@ -6,7 +6,7 @@
     font-optical-sizing: auto;
 }
 header{
-    max-width: 1600px;
+    max-width: 1800px;
     
     margin: 0 auto;
     background-image: url("./images/banner/banner3.png");
@@ -21,7 +21,7 @@ header{
     max-width: 1140px;
 }  
 .btn{
-    padding: 20px 25px;
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
 }
@@ -83,3 +83,103 @@ header{
     color: #444343;
     list-style-type: none;
 }
+/* End Fail Section */
+
+/* Plan Section Started */
+.plans{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    
+}
+.plans h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.all-plan{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+
+}
+.single-plan{
+    text-align: center;
+}
+.single-plan img{
+    margin-bottom: 20px;
+}
+.single-plan h3{
+    margin-bottom: 10px;
+    color: #151515;
+}
+.single-plan p{
+    margin-bottom: 10px;
+    color: #444343;
+}
+/* Plan Section End */
+
+/* Watch Section Start */
+.watch{
+    background: url("./images/watch.png");
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 130px;
+    border-radius: 10px;
+
+}
+.watch-container{
+    max-width: 459px;
+    /* margin: 59px; */
+    padding: 59px;
+}
+.watch-container h2{
+    margin-bottom: 24px;
+    
+}
+.watch-container button{
+    font-weight: 600;
+    color: #005FAC;
+}
+/* Watch Section End */
+
+/* Footer Section Started */
+.footer{
+    max-width: 1800px;
+    margin: 0 auto;
+    background: #151414;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 130px 230px;
+    gap: 330px;
+    align-items: center;
+}
+.footer-content{
+    max-width: 5185px;
+}
+.footer-content p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-form{
+    max-width: 325px;
+    display: inline;
+    
+}
+.footer-form *{
+    margin-bottom: 15px;
+}
+.footer-form input{
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Footer Section End */
+
+
