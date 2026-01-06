@@ -9,7 +9,7 @@ header{
     max-width: 1600px;
     
     margin: 0 auto;
-    background-image: url("/images/banner/banner3.png");
+    background-image: url("./images/banner/banner3.png");
     background-position: center;
     background-size: cover;
 }
