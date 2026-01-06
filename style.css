@@ -12,6 +12,8 @@ header{
     background-image: url("./images/banner/banner3.png");
     background-position: center;
     background-size: cover;
+    margin-bottom: 115px;
+
 }
 /* SHARED ELEMENT */
 .common{
@@ -42,8 +44,42 @@ header{
 .header-content p{
     font-size: 16px;
     line-height: 26px;
-    min-width: 494px;
+    max-width: 494px;
     margin-bottom: 32px;
 }
 /* Header Section End */
 
+/* Start Fail Section */
+.fail{
+    max-width: 1049px;
+    margin: 0 auto;
+   
+}
+.fail-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 105px;
+    
+}
+.fail-content{
+    max-width: 416px;
+}
+.fail-content h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.fail-content p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+.fail-content li{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 8px;
+    color: #444343;
+    list-style-type: none;
+}
