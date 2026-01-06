@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+header{
+    max-width: 1600px;
+    
+    margin: 0 auto;
+    background-image: url("/images/banner/banner3.png");
+    background-position: center;
+    background-size: cover;
+}
+/* SHARED ELEMENT */
+.common{
+    margin: 0 auto;
+    max-width: 1140px;
+}  
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* MAIN ELEMENT */
+
+/* Header Section Start */
+.header-content{
+    padding: 216px 230px  166px 845px;
+    color: white;
+    text-align: right;
+    
+    
+}
+.header-content h1{
+    font-size: 65px;
+    max-width: 525px;
+    margin-bottom: 30px;  
+}
+.header-content p{
+    font-size: 16px;
+    line-height: 26px;
+    min-width: 494px;
+    margin-bottom: 32px;
+}
+/* Header Section End */
+
