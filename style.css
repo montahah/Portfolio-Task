@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
+    
 }
 header{
-    max-width: 1800px;
     
+    max-width: 1800px;
     margin: 0 auto;
     background-image: url("./images/banner/banner3.png");
     background-position: center;
@@ -29,24 +29,37 @@ header{
 /* MAIN ELEMENT */
 
 /* Header Section Start */
+.header-container{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
 .header-content{
+    
     padding: 216px 230px  166px 845px;
     color: white;
     text-align: right;
-    
-    
+  
 }
+
+
 .header-content h1{
     font-size: 65px;
-    max-width: 525px;
+    max-width: 585px;
     margin-bottom: 30px;  
 }
 .header-content p{
     font-size: 16px;
+    max-width: 585px;
     line-height: 26px;
-    max-width: 494px;
+    
     margin-bottom: 32px;
 }
+.header-content button{
+    max-width: 585px;
+}
+
 /* Header Section End */
 
 /* Start Fail Section */
@@ -157,12 +170,18 @@ header{
     max-width: 1140px;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 130px 230px;
-    gap: 330px;
+    /* padding: 130px 230px; */
+    /* gap: 330px; */
     align-items: center;
 }
 .footer-content{
-    max-width: 5185px;
+    max-width: 485px;
+    padding: 130px 0;
+
+}
+.footer-content *{
+    margin-bottom: 20px;
+
 }
 .footer-content p{
     font-size: 16px;
@@ -179,6 +198,12 @@ header{
 .footer-form input{
     padding: 10px;
     border-radius: 5px;
+    margin-top: 30px;
+}
+.footer-form button{
+    display: block;
+    background: #005FAC;
+    color: white;
 }
 /* Footer Section End */
 
